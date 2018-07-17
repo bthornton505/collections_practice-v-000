@@ -48,4 +48,4 @@ end
 
 
 
-array.each_with_index.collect {|element,index| element + "s"}
+#array.each_with_index.collect {|element,index| element + "s"}
