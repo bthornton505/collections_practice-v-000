@@ -32,8 +32,8 @@ def sum_array(array)
   array.inject(0) {|a,b| a + b}
 end 
 
-def add_s(array)
-  array.collect do |word|
+def add_s(array)            # Trying to refactor this with below code 
+  array.collect do |word|  #array.each_with_index.collect {|element,index| element + "s"}
     if array[1] == word 
       word 
     else 
@@ -48,4 +48,4 @@ end
 
 
 
-#array.each_with_index.collect {|element,index| element + "s"}
+
